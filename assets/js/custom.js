@@ -3,7 +3,7 @@
 	"use strict";
 
 	// Page loading animation
-	$(window).on('load', function() {
+	$(window).on('DOMContentLoaded', function() {
 
         $('#js-preloader').addClass('loaded');
 
