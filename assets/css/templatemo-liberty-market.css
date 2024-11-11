@@ -676,7 +676,7 @@ Header Style
   .header-area.header-sticky .nav li a.active {
     color: #d36323!important;
     opacity: 1;
-    animation:brdr 0.2s linear;
+    -moz-animation:brdr 0.2s linear;
   }
   .header-area.header-sticky .logo {
     height: 100%;
@@ -741,7 +741,7 @@ Header Style
   .header-area .main-nav .nav li a:hover {
     background: #fff !important;
     color: #d36323!important;
-    animation:brdr 0.2s linear;
+    -moz-animation:brdr 0.2s linear;
   }
   
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
@@ -762,7 +762,7 @@ Header Style
   }
   .header-area .main-nav .nav li.submenu ul li a:hover:before {
     width: 0px;
-    animation:brdr 0.2s linear;
+    -moz-animation:brdr 0.2s linear;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     height: auto;
